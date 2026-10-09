@@ -95,3 +95,6 @@ python scripts/aggregate_judges.py --reveal
 ## 라이선스
 
 코드와 결과는 MIT. KMMLU 데이터는 포함하지 않으며 원 라이선스(CC-BY-ND-4.0)를 따릅니다.
+
+측정한 모델(가중치는 이 저장소에 없음): Gemma 4 12B / 26B-A4B (Google, Apache-2.0), Qwen3-30B-A3B · Qwen3.6-35B-A3B · Qwen3.8-27B (Alibaba Qwen, Apache-2.0).
+결과 파일의 모델 답변과 AI 심사위원 출력은 각 모델·서비스로 생성한 것입니다. 언급된 모델·서비스 이름은 각 회사의 상표이며, 이 저장소는 어느 회사와도 관련이 없습니다.

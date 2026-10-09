@@ -1,0 +1,23 @@
+{
+ "id": "k10",
+ "category": "코딩",
+ "prompt": "파이썬에서 리스트 안의 중복을 제거하되 원래 순서는 유지하는 함수를 작성하고, 왜 그렇게 작성했는지 한국어로 설명해 줘.",
+ "model": "qwen3.8-27b",
+ "answer": "```python\ndef remove_duplicates(lst: list) -> list:\n    \"\"\"\n    리스트 안의 중복 요소를 제거하되, 원래 순서를 유지하는 함수.\n    \n    Args:\n        lst: 중복을 제거할 원본 리스트\n        \n    Returns:\n        중복이 제거되고 원래 순서가 유지된 새로운 리스트\n    \"\"\"\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in seen:\n            seen.add(item)\n            result.append(item)\n    return result\n```\n\n### 왜 이렇게 작성했는지 설명\n\n1. **`set`을 `seen`으로 사용**: `set`은 요소를 추가하고 포함 여부를 확인하는 데 O(1) 평균 시간 복잡도를 제공합니다. 리스트를 매번 검색하는 것(O(n))보다 훨씬 빠릅니다.\n\n2. **`result` 리스트로 순서 유지**: `set` 자체는 순서를 보장하지 않으므로, 순서를 유지하기 위해 별도의 리스트 `result`를 만들어 순서대로 요소를 추가합니다.\n\n3. **한 번만 순회**: 원본 리스트를 한 번만 순회하며, 각 요소를 `seen`에 이미 있는지 확인합니다. 없으면 `seen`에 추가하고 `result`에도 추가합니다. 이 방식은 시간 복잡도 O(n), 공간 복잡도 O(n)으로 효율적입니다.\n\n4. **불변성 유지**: 원본 리스트를 수정하지 않고 새로운 리스트를 반환하므로, 원본 데이터가 변하지 않아 안전합니다.\n\n5. **가독성**: 로직이 직관적이고, 각 단계의 목적이 명확하여 유지보수가 쉽습니다.",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 0,
+  "prompt_n": 47,
+  "prompt_ms": 2348.113,
+  "prompt_per_token_ms": 49.95985106382978,
+  "prompt_per_second": 20.01607248032782,
+  "predicted_n": 348,
+  "predicted_ms": 49283.212,
+  "predicted_per_token_ms": 142.02654755043227,
+  "predicted_per_second": 7.040937185668824,
+  "draft_n": 375,
+  "draft_n_accepted": 223
+ },
+ "wall_s": 52.6
+}

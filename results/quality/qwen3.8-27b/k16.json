@@ -1,0 +1,23 @@
+{
+ "id": "k16",
+ "category": "지시 이행",
+ "prompt": "재택근무의 장점과 단점을 각각 정확히 세 가지씩, 한 항목당 한 줄로 써 줘. 다른 설명은 붙이지 마.",
+ "model": "qwen3.8-27b",
+ "answer": "장점: 출퇴근 시간과 비용이 절약된다.\n장점: 개인적인 환경에서 집중력을 높일 수 있다.\n장점: 업무와 사생활의 경계를 유연하게 조절할 수 있다.\n단점: 동료와의 즉각적인 소통이 어려워진다.\n단점: 업무와 사생활의 경계가 모호해진다.\n단점: 고립감으로 인한 심리적 스트레스가 증가한다.",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 0,
+  "prompt_n": 45,
+  "prompt_ms": 4914.527,
+  "prompt_per_token_ms": 109.21171111111111,
+  "prompt_per_second": 9.156527169349156,
+  "predicted_n": 93,
+  "predicted_ms": 28809.785,
+  "predicted_per_token_ms": 313.1498369565217,
+  "predicted_per_second": 3.1933594783855552,
+  "draft_n": 102,
+  "draft_n_accepted": 58
+ },
+ "wall_s": 35.9
+}

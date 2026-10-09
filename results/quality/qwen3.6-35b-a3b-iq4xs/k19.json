@@ -1,0 +1,23 @@
+{
+ "id": "k19",
+ "category": "창작",
+ "prompt": "가을 퇴근길을 주제로 시조 한 수를 지어 줘. 시조의 형식(3장 6구)을 지켜 줘.",
+ "model": "qwen3.6-35b-a3b-iq4xs",
+ "answer": "**가을 해 질 녘**\n\n해는 서산에 져서\n노을이 붉게 타오르니\n발걸음은 가볍구나\n\n바람에 나뭇잎 흔들려\n따스한 이불 생각나네\n집으로 가는 길이여",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 0,
+  "prompt_n": 44,
+  "prompt_ms": 1025.378,
+  "prompt_per_token_ms": 23.304045454545452,
+  "prompt_per_second": 42.91100452711098,
+  "predicted_n": 61,
+  "predicted_ms": 5006.604,
+  "predicted_per_token_ms": 83.44340000000001,
+  "predicted_per_second": 11.984171306538324,
+  "draft_n": 114,
+  "draft_n_accepted": 22
+ },
+ "wall_s": 7.4
+}

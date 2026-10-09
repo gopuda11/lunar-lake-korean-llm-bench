@@ -1,0 +1,23 @@
+{
+ "id": "k10",
+ "category": "코딩",
+ "prompt": "파이썬에서 리스트 안의 중복을 제거하되 원래 순서는 유지하는 함수를 작성하고, 왜 그렇게 작성했는지 한국어로 설명해 줘.",
+ "model": "qwen3.6-35b-a3b-iq4xs",
+ "answer": "파이썬에서 리스트의 중복을 제거하면서 원래 순서를 유지하는 가장 일반적이고 효율적인 방법은 **`dict` (딕셔너리)의 순서 유지 특성**을 이용하는 것입니다.\n\n### ✅ 함수 코드\n\n```python\ndef remove_duplicates_preserve_order(lst):\n    \"\"\"\n    리스트의 중복을 제거하되, 원래 순서를 유지합니다.\n    \"\"\"\n    return list(dict.fromkeys(lst))\n```\n\n### 📌 사용 예시\n\n```python\noriginal_list = [3, 1, 2, 3, 4, 1, 5, 2]\nresult = remove_duplicates_preserve_order(original_list)\nprint(result)  # 출력: [3, 1, 2, 4, 5]\n```\n\n---\n\n### 💡 왜 이렇게 작성했나요? (설명)\n\n1. **`dict.fromkeys()`의 순서 유지 보장**\n   - 파이썬 3.7부터 **딕셔너리는 삽입 순서를 유지**하는 것으로 언어仕様(仕様)이 확정되었습니다.\n   - `dict.fromkeys(lst)`는 리스트의 각 요소를 키로 가지는 딕셔너리를 생성합니다.\n   - 키는 중복될 수 없으므로, 중복된 값은 자동으로 제거됩니다.\n   - 첫 번째로 등장한 키만 유지되므로, **원본 리스트의 순서가 그대로 반영**됩니다.\n\n2. **효율성 (시간 복잡도: O(n))**\n   - `dict.fromkeys()`는 C 레벨에서 최적화된 내장 함수이므로, 반복문이나 조건문을 직접 작성하는 것보다 훨씬 빠릅니다.\n   - 각 요소를 한 번만 순회하므로 시간 복잡도는 **O(n)**입니다.\n\n3. **다른 방법과의 비교**\n   - **`set()` 사용**: `list(set(lst))`는 중복 제거는 되지만, **순서가 무작위로 바뀔 수 있으므로** 이 문제의 요구사항을 만족하지 못합니다.\n   - **반복문 + 조건문 사용**:\n     ```python\n     def remove_duplicates_loop(lst):\n         seen = set()\n         result = []\n         for item in lst:\n             if item not in seen:\n                 seen.add(item)\n                 result.append(item)\n         return result\n     ```\n     이 방법도 순서를 유지하고 O(n) 시간 복잡도를 가지지만, 파이썬 코드보다 `dict.fromkeys()`가 더 간결하고 일반적으로 빠릅니다.\n\n4. **가독성**\n   - 한 줄로 표현되어 코드가 간결하고 의도가 명확합니다.\n\n---\n\n### ⚠️ 주의사항\n- 이 방법은 리스트의 요소가 **해시 가능(hashable)**해야 합니다. (예: `int`, `str`, `tuple`은 가능, `list`, `dict`는 불가)\n- 만약 요소가 리스트나 딕셔너리처럼 비해시 타입이라면, 위 방법은 작동하지 않습니다. 이 경우 반복문을 사용한 방법이 필요합니다.",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 0,
+  "prompt_n": 47,
+  "prompt_ms": 1488.911,
+  "prompt_per_token_ms": 31.67895744680851,
+  "prompt_per_second": 31.566695390120696,
+  "predicted_n": 651,
+  "predicted_ms": 45221.825,
+  "predicted_per_token_ms": 69.57203846153845,
+  "predicted_per_second": 14.373590627976649,
+  "draft_n": 696,
+  "draft_n_accepted": 418
+ },
+ "wall_s": 47.0
+}

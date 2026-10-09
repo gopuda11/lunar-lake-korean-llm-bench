@@ -1,0 +1,2695 @@
+{
+ "k01": {
+  "judges": {
+   "jev": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.87,
+      "ko": 4.8,
+      "follow": 4.56
+     },
+     "B": {
+      "acc": 4.11,
+      "ko": 4.58,
+      "follow": 4.74
+     },
+     "C": {
+      "acc": 4.66,
+      "ko": 4.79,
+      "follow": 4.88
+     }
+    }
+   },
+   "clef": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.5,
+      "ko": 4.04,
+      "follow": 4.11
+     },
+     "B": {
+      "acc": 3.94,
+      "ko": 3.74,
+      "follow": 3.99
+     },
+     "C": {
+      "acc": 4.02,
+      "ko": 4.15,
+      "follow": 4.2
+     }
+    }
+   },
+   "codex": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 2.5,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 3.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 3.5,
+      "ko": 4.5,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.0,
+      "ko": 3.5,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 3.0,
+      "ko": 4.5,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 4.5,
+      "follow": 5.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "C": 5
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "A": 11.98,
+   "B": 12.72,
+   "C": 13.84
+  },
+  "final_best": "C"
+ },
+ "k02": {
+  "judges": {
+   "jev": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "B": {
+      "acc": 4.92,
+      "ko": 4.75,
+      "follow": 4.92
+     },
+     "A": {
+      "acc": 4.88,
+      "ko": 4.37,
+      "follow": 4.81
+     },
+     "C": {
+      "acc": 4.88,
+      "ko": 4.75,
+      "follow": 4.87
+     }
+    }
+   },
+   "clef": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.89,
+      "ko": 3.62,
+      "follow": 4.17
+     },
+     "B": {
+      "acc": 4.32,
+      "ko": 3.92,
+      "follow": 4.1
+     },
+     "C": {
+      "acc": 4.05,
+      "ko": 4.04,
+      "follow": 4.1
+     }
+    }
+   },
+   "codex": {
+    "best": null,
+    "bests": [
+     "B",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 3.5,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 4.5,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": null,
+    "bests": [
+     "B",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 2.0,
+      "follow": 4.5
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.5,
+      "ko": 3.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "A": 2,
+   "B": 1
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "B": 14.29,
+   "A": 12.25,
+   "C": 14.34
+  },
+  "final_best": null
+ },
+ "k03": {
+  "judges": {
+   "jev": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.84,
+      "ko": 4.61,
+      "follow": 4.09
+     },
+     "B": {
+      "acc": 4.95,
+      "ko": 4.62,
+      "follow": 4.77
+     },
+     "C": {
+      "acc": 4.94,
+      "ko": 4.75,
+      "follow": 4.63
+     }
+    }
+   },
+   "clef": {
+    "best": null,
+    "bests": [
+     "C",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.22,
+      "ko": 3.63,
+      "follow": 3.83
+     },
+     "B": {
+      "acc": 4.36,
+      "ko": 3.83,
+      "follow": 3.49
+     },
+     "C": {
+      "acc": 4.29,
+      "ko": 4.25,
+      "follow": 4.11
+     }
+    }
+   },
+   "codex": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 4.5,
+      "ko": 4.5,
+      "follow": 3.5
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 1,
+   "C": 3
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "A": 13.24,
+   "B": 13.7,
+   "C": 14.39
+  },
+  "final_best": "C"
+ },
+ "k04": {
+  "judges": {
+   "jev": {
+    "best": null,
+    "bests": [
+     "A",
+     "B"
+    ],
+    "scores": {
+     "B": {
+      "acc": 4.7,
+      "ko": 4.19,
+      "follow": 4.6
+     },
+     "A": {
+      "acc": 4.72,
+      "ko": 4.71,
+      "follow": 3.21
+     },
+     "C": {
+      "acc": 4.61,
+      "ko": 4.53,
+      "follow": 3.38
+     }
+    }
+   },
+   "clef": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 3.97,
+      "follow": 3.21
+     },
+     "B": {
+      "acc": 4.12,
+      "ko": 3.59,
+      "follow": 3.67
+     },
+     "C": {
+      "acc": 3.93,
+      "ko": 3.89,
+      "follow": 3.21
+     }
+    }
+   },
+   "codex": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 4.0,
+      "follow": 2.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 4.5,
+      "ko": 5.0,
+      "follow": 2.0
+     }
+    }
+   },
+   "claude": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 3.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 3.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 4.5,
+      "ko": 4.5,
+      "follow": 3.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 4.0,
+      "follow": 4.5
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 3.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 4.5
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 3,
+   "C": 1
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "B": 12.97,
+   "A": 12.06,
+   "C": 12.31
+  },
+  "final_best": "B"
+ },
+ "k05": {
+  "judges": {
+   "jev": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.31,
+      "ko": 4.16,
+      "follow": 4.49
+     },
+     "C": {
+      "acc": 4.81,
+      "ko": 4.79,
+      "follow": 4.6
+     },
+     "B": {
+      "acc": 4.41,
+      "ko": 4.82,
+      "follow": 4.67
+     }
+    }
+   },
+   "clef": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.64,
+      "ko": 3.6,
+      "follow": 3.59
+     },
+     "B": {
+      "acc": 4.09,
+      "ko": 3.96,
+      "follow": 3.93
+     },
+     "C": {
+      "acc": 4.16,
+      "ko": 4.18,
+      "follow": 4.09
+     }
+    }
+   },
+   "codex": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.5,
+      "ko": 3.0,
+      "follow": 4.5
+     },
+     "B": {
+      "acc": 4.0,
+      "ko": 5.0,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 4.0,
+      "ko": 4.5,
+      "follow": 4.0
+     }
+    }
+   },
+   "claude": {
+    "best": null,
+    "bests": [
+     "C",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.0,
+      "ko": 3.0,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 4.5,
+      "ko": 4.5,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 3.5
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "B",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.0,
+      "ko": 3.0,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 4.5
+     }
+    }
+   }
+  },
+  "votes": {
+   "C": 2,
+   "B": 1
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "A": 10.96,
+   "C": 13.43,
+   "B": 13.38
+  },
+  "final_best": "C"
+ },
+ "k06": {
+  "judges": {
+   "jev": {
+    "best": null,
+    "bests": [
+     "B",
+     "C"
+    ],
+    "scores": {
+     "B": {
+      "acc": 4.71,
+      "ko": 4.77,
+      "follow": 4.44
+     },
+     "C": {
+      "acc": 4.65,
+      "ko": 4.73,
+      "follow": 4.39
+     },
+     "A": {
+      "acc": 4.82,
+      "ko": 4.83,
+      "follow": 4.51
+     }
+    }
+   },
+   "clef": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.23,
+      "ko": 4.04,
+      "follow": 3.87
+     },
+     "B": {
+      "acc": 4.33,
+      "ko": 4.19,
+      "follow": 3.69
+     },
+     "C": {
+      "acc": 4.22,
+      "ko": 4.17,
+      "follow": 3.97
+     }
+    }
+   },
+   "codex": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 4.0,
+      "ko": 5.0,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 4.0,
+      "ko": 5.0,
+      "follow": 4.0
+     }
+    }
+   },
+   "claude": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 3.5
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 3.5
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "A",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 4.5
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 4.5
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 1,
+   "A": 2
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "B": 13.43,
+   "C": 13.43,
+   "A": 14.26
+  },
+  "final_best": "A"
+ },
+ "k07": {
+  "judges": {
+   "jev": {
+    "best": null,
+    "bests": [
+     "B",
+     "A"
+    ],
+    "scores": {
+     "B": {
+      "acc": 3.94,
+      "ko": 4.42,
+      "follow": 4.54
+     },
+     "C": {
+      "acc": 3.05,
+      "ko": 4.43,
+      "follow": 4.03
+     },
+     "A": {
+      "acc": 4.42,
+      "ko": 4.83,
+      "follow": 4.74
+     }
+    }
+   },
+   "clef": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.83,
+      "ko": 4.16,
+      "follow": 3.78
+     },
+     "B": {
+      "acc": 3.94,
+      "ko": 3.79,
+      "follow": 3.56
+     },
+     "C": {
+      "acc": 2.94,
+      "ko": 3.56,
+      "follow": 3.4
+     }
+    }
+   },
+   "codex": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.0,
+      "ko": 4.5,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 3.0,
+      "ko": 5.0,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 2.0,
+      "ko": 3.5,
+      "follow": 3.0
+     }
+    }
+   },
+   "claude": {
+    "best": null,
+    "bests": [
+     "B",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 4.5,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 2.0,
+      "ko": 3.5,
+      "follow": 3.5
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "A",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 4.5,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 2.0,
+      "ko": 3.5,
+      "follow": 4.5
+     }
+    }
+   }
+  },
+  "votes": {
+   "A": 1,
+   "B": 1
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "B": 13.04,
+   "C": 9.78,
+   "A": 13.25
+  },
+  "final_best": null
+ },
+ "k08": {
+  "judges": {
+   "jev": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.79,
+      "ko": 4.59,
+      "follow": 4.47
+     },
+     "B": {
+      "acc": 4.87,
+      "ko": 4.85,
+      "follow": 4.08
+     },
+     "C": {
+      "acc": 4.86,
+      "ko": 4.79,
+      "follow": 4.11
+     }
+    }
+   },
+   "clef": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.86,
+      "ko": 3.44,
+      "follow": 3.58
+     },
+     "B": {
+      "acc": 4.07,
+      "ko": 3.93,
+      "follow": 3.51
+     },
+     "C": {
+      "acc": 3.97,
+      "ko": 4.04,
+      "follow": 3.78
+     }
+    }
+   },
+   "codex": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 4.0,
+      "ko": 4.5,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 4.5,
+      "ko": 4.5,
+      "follow": 4.0
+     }
+    }
+   },
+   "claude": {
+    "best": null,
+    "bests": [
+     "A",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 4.5,
+      "follow": 4.5
+     },
+     "B": {
+      "acc": 4.0,
+      "ko": 4.5,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 4.5,
+      "ko": 4.5,
+      "follow": 4.0
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "B",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 2,
+   "A": 1
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "A": 13.15,
+   "B": 13.06,
+   "C": 13.31
+  },
+  "final_best": null
+ },
+ "k09": {
+  "judges": {
+   "jev": {
+    "best": null,
+    "bests": [
+     "B",
+     "A"
+    ],
+    "scores": {
+     "C": {
+      "acc": 4.73,
+      "ko": 4.51,
+      "follow": 3.71
+     },
+     "A": {
+      "acc": 4.69,
+      "ko": 3.92,
+      "follow": 4.16
+     },
+     "B": {
+      "acc": 4.81,
+      "ko": 4.65,
+      "follow": 3.71
+     }
+    }
+   },
+   "clef": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.96,
+      "ko": 3.34,
+      "follow": 3.7
+     },
+     "B": {
+      "acc": 3.94,
+      "ko": 4.0,
+      "follow": 3.64
+     },
+     "C": {
+      "acc": 3.79,
+      "ko": 3.9,
+      "follow": 3.54
+     }
+    }
+   },
+   "codex": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 4.0,
+      "ko": 5.0,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 3.5,
+      "ko": 5.0,
+      "follow": 4.0
+     }
+    }
+   },
+   "claude": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 4.0,
+      "ko": 4.5,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 3.5,
+      "ko": 4.5,
+      "follow": 4.0
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "B",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.5,
+      "ko": 4.5,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 4.5,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 1,
+   "A": 2
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "C": 12.64,
+   "A": 13.35,
+   "B": 13.05
+  },
+  "final_best": "A"
+ },
+ "k10": {
+  "judges": {
+   "jev": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "C": {
+      "acc": 4.87,
+      "ko": 4.74,
+      "follow": 4.89
+     },
+     "B": {
+      "acc": 4.83,
+      "ko": 4.7,
+      "follow": 4.94
+     },
+     "A": {
+      "acc": 4.82,
+      "ko": 3.97,
+      "follow": 4.92
+     }
+    }
+   },
+   "clef": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.08,
+      "ko": 3.58,
+      "follow": 4.18
+     },
+     "B": {
+      "acc": 3.97,
+      "ko": 3.81,
+      "follow": 3.91
+     },
+     "C": {
+      "acc": 4.06,
+      "ko": 4.05,
+      "follow": 4.07
+     }
+    }
+   },
+   "codex": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 3.5,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 4.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 4.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 2.0,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 3.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "A": 2,
+   "B": 3
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "C": 14.14,
+   "B": 14.03,
+   "A": 12.21
+  },
+  "final_best": "B"
+ },
+ "k11": {
+  "judges": {
+   "jev": {
+    "best": null,
+    "bests": [
+     "C",
+     "B"
+    ],
+    "scores": {
+     "C": {
+      "acc": 4.88,
+      "ko": 4.74,
+      "follow": 4.81
+     },
+     "B": {
+      "acc": 4.79,
+      "ko": 4.73,
+      "follow": 4.79
+     },
+     "A": {
+      "acc": 4.8,
+      "ko": 4.83,
+      "follow": 4.74
+     }
+    }
+   },
+   "clef": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.94,
+      "ko": 4.1,
+      "follow": 4.1
+     },
+     "B": {
+      "acc": 4.1,
+      "ko": 3.94,
+      "follow": 3.96
+     },
+     "C": {
+      "acc": 3.82,
+      "ko": 4.17,
+      "follow": 4.08
+     }
+    }
+   },
+   "codex": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.5,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 3.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 4.5,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 4.5,
+      "follow": 4.5
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 4.5,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 3,
+   "C": 1
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "C": 14.1,
+   "B": 13.86,
+   "A": 13.6
+  },
+  "final_best": "B"
+ },
+ "k12": {
+  "judges": {
+   "jev": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.94,
+      "ko": 4.83,
+      "follow": 4.89
+     },
+     "C": {
+      "acc": 4.95,
+      "ko": 4.83,
+      "follow": 4.9
+     },
+     "B": {
+      "acc": 4.98,
+      "ko": 4.79,
+      "follow": 4.96
+     }
+    }
+   },
+   "clef": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.43,
+      "ko": 4.04,
+      "follow": 4.13
+     },
+     "B": {
+      "acc": 4.75,
+      "ko": 4.2,
+      "follow": 4.52
+     },
+     "C": {
+      "acc": 4.31,
+      "ko": 4.0,
+      "follow": 4.19
+     }
+    }
+   },
+   "codex": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 4,
+   "C": 1
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "A": 14.45,
+   "C": 14.44,
+   "B": 14.64
+  },
+  "final_best": "B"
+ },
+ "k13": {
+  "judges": {
+   "jev": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.12,
+      "ko": 4.24,
+      "follow": 3.67
+     },
+     "B": {
+      "acc": 3.08,
+      "ko": 3.87,
+      "follow": 3.08
+     },
+     "C": {
+      "acc": 3.44,
+      "ko": 4.06,
+      "follow": 3.19
+     }
+    }
+   },
+   "clef": {
+    "best": null,
+    "bests": [
+     "C",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.38,
+      "ko": 3.64,
+      "follow": 3.08
+     },
+     "B": {
+      "acc": 3.17,
+      "ko": 3.12,
+      "follow": 2.79
+     },
+     "C": {
+      "acc": 3.26,
+      "ko": 3.58,
+      "follow": 2.83
+     }
+    }
+   },
+   "codex": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.0,
+      "ko": 4.0,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 2.0,
+      "ko": 3.0,
+      "follow": 3.5
+     },
+     "C": {
+      "acc": 3.0,
+      "ko": 3.0,
+      "follow": 3.5
+     }
+    }
+   },
+   "claude": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.0,
+      "ko": 3.5,
+      "follow": 3.0
+     },
+     "B": {
+      "acc": 3.0,
+      "ko": 2.5,
+      "follow": 2.0
+     },
+     "C": {
+      "acc": 3.0,
+      "ko": 2.5,
+      "follow": 2.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.0,
+      "ko": 3.0,
+      "follow": 3.0
+     },
+     "B": {
+      "acc": 2.5,
+      "ko": 2.5,
+      "follow": 2.5
+     },
+     "C": {
+      "acc": 2.0,
+      "ko": 2.0,
+      "follow": 2.5
+     }
+    }
+   }
+  },
+  "votes": {
+   "A": 4
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "A": 10.33,
+   "B": 8.52,
+   "C": 8.77
+  },
+  "final_best": "A"
+ },
+ "k14": {
+  "judges": {
+   "jev": {
+    "best": null,
+    "bests": [
+     "A",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.88,
+      "ko": 4.55,
+      "follow": 4.87
+     },
+     "C": {
+      "acc": 4.52,
+      "ko": 4.62,
+      "follow": 4.7
+     },
+     "B": {
+      "acc": 4.73,
+      "ko": 4.13,
+      "follow": 4.76
+     }
+    }
+   },
+   "clef": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.2,
+      "ko": 4.16,
+      "follow": 4.12
+     },
+     "B": {
+      "acc": 4.06,
+      "ko": 3.72,
+      "follow": 3.83
+     },
+     "C": {
+      "acc": 3.91,
+      "ko": 3.96,
+      "follow": 4.08
+     }
+    }
+   },
+   "codex": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 2.0,
+      "ko": 4.0,
+      "follow": 4.5
+     }
+    }
+   },
+   "claude": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 4.0,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 4.5,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 3.0,
+      "ko": 4.5,
+      "follow": 4.0
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "A",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 2.5,
+      "ko": 4.0,
+      "follow": 4.5
+     }
+    }
+   }
+  },
+  "votes": {
+   "C": 1,
+   "B": 2
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "A": 13.76,
+   "C": 11.76,
+   "B": 13.95
+  },
+  "final_best": "B"
+ },
+ "k15": {
+  "judges": {
+   "jev": {
+    "best": null,
+    "bests": [
+     "B",
+     "C"
+    ],
+    "scores": {
+     "B": {
+      "acc": 4.64,
+      "ko": 4.67,
+      "follow": 4.79
+     },
+     "C": {
+      "acc": 4.86,
+      "ko": 4.72,
+      "follow": 4.49
+     },
+     "A": {
+      "acc": 4.51,
+      "ko": 4.83,
+      "follow": 4.59
+     }
+    }
+   },
+   "clef": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.9,
+      "ko": 3.89,
+      "follow": 3.78
+     },
+     "B": {
+      "acc": 4.14,
+      "ko": 3.76,
+      "follow": 4.17
+     },
+     "C": {
+      "acc": 4.22,
+      "ko": 3.94,
+      "follow": 4.16
+     }
+    }
+   },
+   "codex": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 3.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 3.5,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": null,
+    "bests": [
+     "A",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 3.5,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 4.5
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "A",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 4.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "C": 1,
+   "A": 1
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "B": 12.73,
+   "C": 13.88,
+   "A": 13.9
+  },
+  "final_best": null
+ },
+ "k16": {
+  "judges": {
+   "jev": {
+    "best": null,
+    "bests": [
+     "A",
+     "C"
+    ],
+    "scores": {
+     "C": {
+      "acc": 4.62,
+      "ko": 4.5,
+      "follow": 4.21
+     },
+     "B": {
+      "acc": 4.74,
+      "ko": 4.61,
+      "follow": 4.19
+     },
+     "A": {
+      "acc": 4.87,
+      "ko": 4.73,
+      "follow": 4.14
+     }
+    }
+   },
+   "clef": {
+    "best": null,
+    "bests": [
+     "A",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.02,
+      "ko": 3.94,
+      "follow": 3.54
+     },
+     "B": {
+      "acc": 4.25,
+      "ko": 3.67,
+      "follow": 3.44
+     },
+     "C": {
+      "acc": 4.1,
+      "ko": 3.96,
+      "follow": 3.69
+     }
+    }
+   },
+   "codex": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 4.0,
+      "follow": 4.5
+     },
+     "B": {
+      "acc": 4.5,
+      "ko": 5.0,
+      "follow": 4.5
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": "C",
+    "bests": [
+     "C",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 3.5
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 3.5
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "A",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 4.5
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 4.5
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "C": 2
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "C": 14.02,
+   "B": 13.38,
+   "A": 13.35
+  },
+  "final_best": "C"
+ },
+ "k17": {
+  "judges": {
+   "jev": {
+    "best": null,
+    "bests": [
+     "A",
+     "B"
+    ],
+    "scores": {
+     "B": {
+      "acc": 3.17,
+      "ko": 4.21,
+      "follow": 3.54
+     },
+     "A": {
+      "acc": 2.88,
+      "ko": 3.62,
+      "follow": 3.48
+     },
+     "C": {
+      "acc": 1.28,
+      "ko": 1.11,
+      "follow": 1.06
+     }
+    }
+   },
+   "clef": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 2.65,
+      "ko": 3.63,
+      "follow": 3.57
+     },
+     "B": {
+      "acc": 2.84,
+      "ko": 3.79,
+      "follow": 3.63
+     },
+     "C": {
+      "acc": 1.16,
+      "ko": 1.13,
+      "follow": 1.25
+     }
+    }
+   },
+   "codex": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 1.0,
+      "ko": 3.5,
+      "follow": 2.5
+     },
+     "B": {
+      "acc": 2.0,
+      "ko": 5.0,
+      "follow": 3.5
+     },
+     "C": {
+      "acc": 1.0,
+      "ko": 1.0,
+      "follow": 1.0
+     }
+    }
+   },
+   "claude": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 1.5,
+      "ko": 3.0,
+      "follow": 3.0
+     },
+     "B": {
+      "acc": 2.0,
+      "ko": 3.5,
+      "follow": 3.0
+     },
+     "C": {
+      "acc": 1.0,
+      "ko": 1.0,
+      "follow": 1.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 1.5,
+      "ko": 3.5,
+      "follow": 3.0
+     },
+     "B": {
+      "acc": 3.0,
+      "ko": 4.5,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 1.0,
+      "ko": 1.0,
+      "follow": 1.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 4
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "B": 10.34,
+   "A": 8.47,
+   "C": 3.2
+  },
+  "final_best": "B"
+ },
+ "k18": {
+  "judges": {
+   "jev": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "B": {
+      "acc": 4.52,
+      "ko": 4.73,
+      "follow": 4.64
+     },
+     "C": {
+      "acc": 4.04,
+      "ko": 4.45,
+      "follow": 4.29
+     },
+     "A": {
+      "acc": 3.58,
+      "ko": 4.55,
+      "follow": 4.34
+     }
+    }
+   },
+   "clef": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.05,
+      "ko": 3.83,
+      "follow": 3.84
+     },
+     "B": {
+      "acc": 4.21,
+      "ko": 4.14,
+      "follow": 4.18
+     },
+     "C": {
+      "acc": 3.69,
+      "ko": 4.15,
+      "follow": 4.17
+     }
+    }
+   },
+   "codex": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 1.0,
+      "ko": 4.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 4.0,
+      "ko": 4.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 2.0,
+      "ko": 4.0,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 4.5,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "gemini": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 2.0,
+      "ko": 3.5,
+      "follow": 4.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 5
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "B": 14.28,
+   "C": 13.46,
+   "A": 10.54
+  },
+  "final_best": "B"
+ },
+ "k19": {
+  "judges": {
+   "jev": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.3,
+      "ko": 4.21,
+      "follow": 2.92
+     },
+     "C": {
+      "acc": 2.38,
+      "ko": 4.38,
+      "follow": 2.31
+     },
+     "B": {
+      "acc": 3.44,
+      "ko": 4.46,
+      "follow": 3.64
+     }
+    }
+   },
+   "clef": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 2.95,
+      "ko": 3.09,
+      "follow": 2.44
+     },
+     "B": {
+      "acc": 3.55,
+      "ko": 3.44,
+      "follow": 2.98
+     },
+     "C": {
+      "acc": 3.24,
+      "ko": 3.53,
+      "follow": 2.92
+     }
+    }
+   },
+   "codex": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 3.5,
+      "ko": 4.0,
+      "follow": 1.5
+     },
+     "B": {
+      "acc": 3.5,
+      "ko": 5.0,
+      "follow": 4.5
+     },
+     "C": {
+      "acc": 3.0,
+      "ko": 5.0,
+      "follow": 3.0
+     }
+    }
+   },
+   "claude": {
+    "best": "B",
+    "bests": [
+     "B",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 2.0,
+      "ko": 3.5,
+      "follow": 2.0
+     },
+     "B": {
+      "acc": 4.0,
+      "ko": 4.0,
+      "follow": 4.0
+     },
+     "C": {
+      "acc": 3.0,
+      "ko": 4.0,
+      "follow": 3.0
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "B",
+     "C"
+    ],
+    "scores": {
+     "A": {
+      "acc": 2.5,
+      "ko": 4.0,
+      "follow": 2.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 4.5
+     }
+    }
+   }
+  },
+  "votes": {
+   "B": 4
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "A": 8.78,
+   "C": 10.85,
+   "B": 12.3
+  },
+  "final_best": "B"
+ },
+ "k20": {
+  "judges": {
+   "jev": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "C": {
+      "acc": 4.1,
+      "ko": 2.98,
+      "follow": 3.55
+     },
+     "B": {
+      "acc": 4.79,
+      "ko": 4.82,
+      "follow": 4.81
+     },
+     "A": {
+      "acc": 4.8,
+      "ko": 4.78,
+      "follow": 4.83
+     }
+    }
+   },
+   "clef": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.23,
+      "ko": 4.12,
+      "follow": 4.13
+     },
+     "B": {
+      "acc": 4.16,
+      "ko": 4.02,
+      "follow": 4.04
+     },
+     "C": {
+      "acc": 3.51,
+      "ko": 2.98,
+      "follow": 3.44
+     }
+    }
+   },
+   "codex": {
+    "best": "A",
+    "bests": [
+     "A",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 4.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 3.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 3.0,
+      "ko": 3.0,
+      "follow": 5.0
+     }
+    }
+   },
+   "claude": {
+    "best": null,
+    "bests": [
+     "B",
+     "A"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 3.0,
+      "ko": 2.0,
+      "follow": 2.5
+     }
+    }
+   },
+   "gemini": {
+    "best": null,
+    "bests": [
+     "A",
+     "B"
+    ],
+    "scores": {
+     "A": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "B": {
+      "acc": 5.0,
+      "ko": 5.0,
+      "follow": 5.0
+     },
+     "C": {
+      "acc": 3.0,
+      "ko": 2.5,
+      "follow": 2.5
+     }
+    }
+   }
+  },
+  "votes": {
+   "A": 3
+  },
+  "n_judges": 5,
+  "panel_mean": {
+   "C": 9.41,
+   "B": 13.93,
+   "A": 14.18
+  },
+  "final_best": "A"
+ }
+}

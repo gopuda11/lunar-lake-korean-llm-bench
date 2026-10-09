@@ -1,0 +1,88 @@
+{
+ "scores": {
+  "k02": {
+   "A": {
+    "acc": 5,
+    "follow": 5,
+    "ko": 4
+   },
+   "B": {
+    "acc": 5,
+    "follow": 5,
+    "ko": 5
+   },
+   "C": {
+    "acc": 5,
+    "follow": 5,
+    "ko": 5
+   }
+  },
+  "k07": {
+   "A": {
+    "acc": 5,
+    "follow": 5,
+    "ko": 4
+   },
+   "B": {
+    "acc": 5,
+    "follow": 5,
+    "ko": 4
+   },
+   "C": {
+    "acc": 5,
+    "follow": 5,
+    "ko": 5
+   }
+  },
+  "k08": {
+   "B": {
+    "acc": 5,
+    "follow": 5,
+    "ko": 3
+   },
+   "C": {
+    "acc": 5,
+    "follow": 5,
+    "ko": 5
+   },
+   "A": {
+    "acc": 5,
+    "follow": 5,
+    "ko": 5
+   }
+  },
+  "k15": {
+   "A": {
+    "acc": 3,
+    "follow": 5,
+    "ko": 5
+   },
+   "B": {
+    "acc": 3,
+    "follow": 5,
+    "ko": 5
+   },
+   "C": {
+    "acc": 3,
+    "follow": 5,
+    "ko": 5
+   }
+  }
+ },
+ "memo": {
+  "k02": {
+   "A": "한자 혼입(结构简单)"
+  },
+  "k07": {
+   "A": "LaTeX $\\rightarrow$ 노출",
+   "B": "LaTeX $\\rightarrow$ 노출"
+  },
+  "k08": {
+   "A": "오너가 페이지에서 직접 5/5/5 채점 (2026-10-08 01:17Z)"
+  },
+  "k15": {
+   "*": "1월1일은 신정 (세 답 동일 감점)"
+  }
+ },
+ "source": "artifact Lf9HUGrpLsx54yaz6yKw5F grades, 2026-10-08"
+}

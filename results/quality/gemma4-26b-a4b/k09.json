@@ -1,0 +1,23 @@
+{
+ "id": "k09",
+ "category": "번역",
+ "prompt": "다음 한국어 문장을 자연스러운 영어로 번역해 줘.\n\n\"이번 프로젝트는 일정이 빠듯했지만, 팀원들이 서로 도와준 덕분에 마감 전에 무사히 끝낼 수 있었습니다.\"",
+ "model": "gemma4-26b-a4b",
+ "answer": "문맥에 따라 여러 가지 방식으로 표현할 수 있습니다. 상황에 맞는 것을 선택해 보세요.\n\n### 1. 가장 자연스럽고 일반적인 표현 (비즈니스 상황 추천)\n\"Although the schedule for this project was tight, we were able to complete it safely before the deadline thanks to the teamwork and mutual support of our members.\"\n*   **설명:** 'tight schedule'은 '빠듯한 일정'을 뜻하는 가장 표준적인 표현입니다.\n\n### 2. 조금 더 격식 있는 표현 (보고서나 공식적인 자리)\n\"Despite the tight project timeline, we successfully met the deadline due to the collaborative efforts of all team members.\"\n*   **설명:** 'met the deadline(마감을 맞추다)'과 'collaborative efforts(협력적인 노력)'라는 표현을 사용하여 전문적인 느낌을 줍니다.\n\n### 3. 구어체로 가볍게 말할 때 (동료들과 대화할 때)\n\"The project timeline was pretty tight, but we managed to finish it on time because everyone helped each other out.\"\n*   **설명:** 'managed to(~해내다)', 'helped each other out(서로 도와주다)'을 사용하여 훨씬 부드럽고 자연스러운 회화 느낌을 줍니다.\n\n---\n\n**💡 주요 표현 정리:**\n*   **일정이 빠듯하다:** tight schedule / tight timeline\n*   **~덕분에:** thanks to / due to / because of\n*   **마감을 맞추다/끝내다:** meet the deadline / finish before the deadline\n*   **서로 도와주다:** help each other / collaborate / mutual support",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 1,
+  "prompt_n": 57,
+  "prompt_ms": 782.604,
+  "prompt_per_token_ms": 13.729894736842105,
+  "prompt_per_second": 72.83377033595535,
+  "predicted_n": 353,
+  "predicted_ms": 11756.139,
+  "predicted_per_token_ms": 33.39812215909091,
+  "predicted_per_second": 29.941803171942766,
+  "draft_n": 363,
+  "draft_n_accepted": 231
+ },
+ "wall_s": 12.9
+}

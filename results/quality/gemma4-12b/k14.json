@@ -1,0 +1,23 @@
+{
+ "id": "k14",
+ "category": "한국 문화",
+ "prompt": "'눈치'라는 한국어 단어를 한국어를 배우는 외국인에게 설명해 줘. 일상 예시 두 개를 들어 줘.",
+ "model": "gemma4-12b",
+ "answer": "한국어의 **'눈치(Nunchi)'**는 한국 문화와 사회적 관계를 이해하는 데 가장 중요한 핵심 개념 중 하나입니다. 외국인 친구에게 설명해 줄 때 다음과 같이 단계별로 설명해 주면 좋습니다.\n\n---\n\n### 1. 기본 정의 (Definition)\n**\"눈치(Nunchi)\"**는 한마디로 **\"상대방의 기분이나 상황을 빠르게 파악하는 능력\"**을 말합니다. \n\n영어로는 딱 한 단어로 번역하기 어렵지만, 상황에 따라 다음과 같은 의미를 포함합니다:\n*   **Social Awareness:** 주변 분위기를 읽는 감각\n*   **Emotional Intelligence:** 상대방의 감정을 눈으로 읽어내는 능력\n*   **Reading the room:** 분위기를 파악하는 것\n\n즉, 상대방이 직접 말로 표현하지 않아도, 그 사람의 표정, 말투, 몸짓, 혹은 주변의 분위기를 통해 **\"지금 이 사람이 무엇을 원하는지\"** 또는 **\"지금 분위기가 어떤지\"**를 알아차리는 기술입니다.\n\n---\n\n### 2. 일상 예시 (Everyday Examples)\n\n외국인 친구가 이해하기 쉽게 구체적인 상황을 들어주세요.\n\n#### 예시 1: 회식이나 모임 자리에서 (At a social gathering)\n> **상황:** 친구들과 식당에서 밥을 먹고 있는데, 한 친구가 계속 물을 마시고 컵이 비어 있습니다. 하지만 그 친구는 \"물 좀 더 주세요\"라고 말하지 않습니다.\n>\n> *   **눈치가 있는 행동:** \"아, 이 친구가 물이 부족하구나\"라고 알아차리고, 말하기 전에 미리 물을 더 가져다주는 것.\n> *   **눈치가 없는 행동:** 친구가 계속 빈 컵을 들고 있는데도 아무도 신경 쓰지 않고 자기 밥만 먹는 것.\n\n#### 예시 2: 직장이나 학교에서 (At work or school)\n> **상황:** 팀장님(혹은 선생님)이 오늘따라 표정이 좋지 않고 한숨을 자주 쉬고 있습니다. 회의 분위기도 무겁습니다.\n>\n> *   **눈치가 있는 행동:** \"오늘 팀장님 기분이 안 좋으시니까, 지금은 질문을 많이 하기보다 조용히 업무에 집중하는 게 좋겠다\"라고 판단하고 행동을 조심하는 것.\n> *   **눈치가 없는 행동:** 분위기를 파악하지 못하고 밝은 목소리로 농담을 던지거나, 지금은 아닌 질문을 계속해서 분위기를 더 어색하게 만드는 것.\n\n---\n\n### 3. 핵심 요약 (Summary for the learner)\n\n외국인 친구에게 마지막으로 이렇게 말해 주세요:\n\n> \"In Korea, having **'Nunchi'** is very important because it helps you act harmoniously with others. It’s about being **proactive** rather than **reactive**. Instead of waiting for someone to tell you what to do, you observe the situation and act accordingly.\"\n>\n> (한국에서는 **'눈치'**가 매우 중요해요. 다른 사람들과 조화롭게 지내는 데 도움을 주거든요. 상대방이 말해줄 때까지 기다리는 게 아니라, 상황을 관찰하고 그에 맞게 행동하는 것이 바로 눈치입니다.)",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 1,
+  "prompt_n": 44,
+  "prompt_ms": 855.146,
+  "prompt_per_token_ms": 19.435136363636364,
+  "prompt_per_second": 51.45320214325975,
+  "predicted_n": 716,
+  "predicted_ms": 43355.47,
+  "predicted_per_token_ms": 60.63702097902098,
+  "predicted_per_second": 16.49157534216559,
+  "draft_n": 822,
+  "draft_n_accepted": 441
+ },
+ "wall_s": 44.9
+}

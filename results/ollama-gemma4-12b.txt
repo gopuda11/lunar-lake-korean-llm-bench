@@ -1,0 +1,2 @@
+prompt 49 tok 48.9 t/s | gen 300 tok 9.0 t/s | load 13.0 s
+prompt 49 tok 109.9 t/s | gen 300 tok 10.9 t/s | load 0.0 s

@@ -1,0 +1,23 @@
+{
+ "id": "k04",
+ "category": "글쓰기",
+ "prompt": "팀장님께 다음 주 금요일 연차를 쓰고 싶다고 요청하는 메시지를 써 줘. 그날 맡은 업무는 동료 김민수 님이 대신 처리하기로 이미 이야기가 됐어. 정중하지만 너무 길지 않게.",
+ "model": "qwen3.8-27b",
+ "answer": "팀장님, 안녕하세요.\n\n다음 주 금요일(11월 22일) 하루 연차를 사용하고자 합니다.\n\n당일 담당 업무는 김민수 님과 이미 조율이 되어, 민수 님이 대신 처리해 주기로 했습니다.\n\n확인 부탁드리겠습니다. 감사합니다.",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 0,
+  "prompt_n": 60,
+  "prompt_ms": 2579.277,
+  "prompt_per_token_ms": 42.98795,
+  "prompt_per_second": 23.262332816521837,
+  "predicted_n": 64,
+  "predicted_ms": 9595.519,
+  "predicted_per_token_ms": 152.3098253968254,
+  "predicted_per_second": 6.565564614066211,
+  "draft_n": 75,
+  "draft_n_accepted": 38
+ },
+ "wall_s": 13.2
+}

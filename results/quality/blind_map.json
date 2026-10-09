@@ -1,0 +1,102 @@
+{
+ "k01": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-12b",
+  "C": "gemma4-26b-a4b"
+ },
+ "k02": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-12b",
+  "C": "gemma4-26b-a4b"
+ },
+ "k03": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-26b-a4b",
+  "C": "gemma4-12b"
+ },
+ "k04": {
+  "A": "gemma4-26b-a4b",
+  "B": "qwen3.6-35b-a3b-iq4xs",
+  "C": "gemma4-12b"
+ },
+ "k05": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-12b",
+  "C": "gemma4-26b-a4b"
+ },
+ "k06": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-12b",
+  "C": "gemma4-26b-a4b"
+ },
+ "k07": {
+  "A": "gemma4-12b",
+  "B": "gemma4-26b-a4b",
+  "C": "qwen3.6-35b-a3b-iq4xs"
+ },
+ "k08": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-26b-a4b",
+  "C": "gemma4-12b"
+ },
+ "k09": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-12b",
+  "C": "gemma4-26b-a4b"
+ },
+ "k10": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-26b-a4b",
+  "C": "gemma4-12b"
+ },
+ "k11": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-12b",
+  "C": "gemma4-26b-a4b"
+ },
+ "k12": {
+  "A": "gemma4-26b-a4b",
+  "B": "qwen3.6-35b-a3b-iq4xs",
+  "C": "gemma4-12b"
+ },
+ "k13": {
+  "A": "gemma4-12b",
+  "B": "gemma4-26b-a4b",
+  "C": "qwen3.6-35b-a3b-iq4xs"
+ },
+ "k14": {
+  "A": "gemma4-12b",
+  "B": "gemma4-26b-a4b",
+  "C": "qwen3.6-35b-a3b-iq4xs"
+ },
+ "k15": {
+  "A": "gemma4-12b",
+  "B": "qwen3.6-35b-a3b-iq4xs",
+  "C": "gemma4-26b-a4b"
+ },
+ "k16": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-12b",
+  "C": "gemma4-26b-a4b"
+ },
+ "k17": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-26b-a4b",
+  "C": "gemma4-12b"
+ },
+ "k18": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-26b-a4b",
+  "C": "gemma4-12b"
+ },
+ "k19": {
+  "A": "qwen3.6-35b-a3b-iq4xs",
+  "B": "gemma4-26b-a4b",
+  "C": "gemma4-12b"
+ },
+ "k20": {
+  "A": "gemma4-26b-a4b",
+  "B": "gemma4-12b",
+  "C": "qwen3.6-35b-a3b-iq4xs"
+ }
+}

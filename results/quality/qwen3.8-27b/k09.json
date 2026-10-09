@@ -1,0 +1,23 @@
+{
+ "id": "k09",
+ "category": "번역",
+ "prompt": "다음 한국어 문장을 자연스러운 영어로 번역해 줘.\n\n\"이번 프로젝트는 일정이 빠듯했지만, 팀원들이 서로 도와준 덕분에 마감 전에 무사히 끝낼 수 있었습니다.\"",
+ "model": "qwen3.8-27b",
+ "answer": "Although the timeline for this project was tight, we were able to complete it on time thanks to the mutual support among team members.",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 0,
+  "prompt_n": 53,
+  "prompt_ms": 2495.334,
+  "prompt_per_token_ms": 47.081773584905655,
+  "prompt_per_second": 21.239641667207678,
+  "predicted_n": 27,
+  "predicted_ms": 3461.298,
+  "predicted_per_token_ms": 133.12684615384615,
+  "predicted_per_second": 7.511632919211232,
+  "draft_n": 27,
+  "draft_n_accepted": 17
+ },
+ "wall_s": 7.0
+}

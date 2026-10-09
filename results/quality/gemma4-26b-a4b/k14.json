@@ -1,0 +1,23 @@
+{
+ "id": "k14",
+ "category": "한국 문화",
+ "prompt": "'눈치'라는 한국어 단어를 한국어를 배우는 외국인에게 설명해 줘. 일상 예시 두 개를 들어 줘.",
+ "model": "gemma4-26b-a4b",
+ "answer": "한국어를 배우는 외국인 친구에게 **'눈치(Nunchi)'**를 설명할 때는 단순히 'Sense'라고 번역하기보다, **'상황을 파악하는 능력'**이라는 관점에서 설명해 주는 것이 가장 정확합니다.\n\n다음은 외국인 친구에게 설명할 때 사용할 수 있는 가이드입니다.\n\n---\n\n### 💡 '눈치'란 무엇인가요? (Definition)\n\n**\"Nunchi is the subtle art of reading the room.\"**\n\n'눈치'는 말로 직접 표현되지 않은 주변 상황, 사람들의 기분, 혹은 분위기를 빠르게 파악하는 능력을 말해요. 상대방이 무엇을 원하는지, 지금 이 분위기가 즐거운지 아니면 진지한지를 '눈'과 '마음'으로 읽어내는 것이죠.\n\n* **눈치가 빠르다 (Fast Nunchi):** 상황 판단이 매우 빠르고 센스 있는 사람.\n* **눈치가 없다 (No Nunchi):** 분위기를 파악하지 못하고 상황에 맞지 않는 행동을 하는 사람.\n* **눈치를 보다 (Watching Nunchi):** 다른 사람의 기분을 살피며 조심스럽게 행동하는 것.\n\n---\n\n### 🏃‍♂️ 일상생활 예시 (Daily Examples)\n\n#### 예시 1: 분위기를 파악할 때 (Reading the Atmosphere)\n\n친구들과 카페에서 수다를 떨고 있는데, 갑자기 한 친구의 표정이 어두워지고 말이 없어졌어요. 이때 그 친구에게 \"왜 그래? 무슨 일 있어?\"라고 직접 묻지 않아도, **'아, 지금 이 친구가 기분이 안 좋구나. 화제를 바꿔야겠다'**라고 느끼는 것이 바로 **'눈치'**입니다.\n\n* **눈치가 빠른 경우:** \"우리 다른 이야기 할까?\"라며 자연스럽게 분위기를 전환함.\n* **눈치가 없는 경우:** 분위기가 가라앉았는데도 계속 시끄럽게 웃긴 이야기를 함.\n\n#### 예시 2: 상대방의 필요를 알아챌 때 (Anticipating Needs)\n\n식당에서 친구와 밥을 먹고 있는데, 친구가 물컵을 들려고 보니 물이 거의 없어요. 이때 친구가 \"물 좀 줘\"라고 말하기 전에, 내가 먼저 물병을 가져와서 물을 채워준다면? 당신은 **'눈치가 아주 빠른 사람'**이에요.\n\n* **눈치가 빠른 경우:** 상대방이 말하기 전에 필요한 것을 미리 알아채고 행동함.\n* **눈치가 없는 경우:** 친구가 물이 없어서 당황하고 있는데도 자기 음식만 맛있게 먹음.\n\n---\n\n### 🌟 요약 (Summary for the learner)\n\n> \"If you have **'Nunchi'**, you are socially intelligent. You can understand what is happening without anyone saying a word!\"",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 1,
+  "prompt_n": 44,
+  "prompt_ms": 698.554,
+  "prompt_per_token_ms": 15.876227272727272,
+  "prompt_per_second": 62.98725653278058,
+  "predicted_n": 610,
+  "predicted_ms": 24341.4,
+  "predicted_per_token_ms": 39.96945812807882,
+  "predicted_per_second": 25.019103256180824,
+  "draft_n": 729,
+  "draft_n_accepted": 366
+ },
+ "wall_s": 26.1
+}

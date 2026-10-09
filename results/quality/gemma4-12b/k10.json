@@ -1,0 +1,23 @@
+{
+ "id": "k10",
+ "category": "코딩",
+ "prompt": "파이썬에서 리스트 안의 중복을 제거하되 원래 순서는 유지하는 함수를 작성하고, 왜 그렇게 작성했는지 한국어로 설명해 줘.",
+ "model": "gemma4-12b",
+ "answer": "파이썬에서 리스트의 중복을 제거하면서 **원래의 순서를 유지**하는 가장 효율적인 방법은 **`dict` (딕셔너리)** 자료형을 사용하는 것입니다.\n\n### 코드 예시\n\n```python\ndef remove_duplicates(input_list):\n    # 딕셔너리의 키(key)는 중복을 허용하지 않는다는 특징을 이용합니다.\n    # 파이썬 3.7 이상부터 딕셔너리는 입력 순서를 유지합니다.\n    return list(dict.fromkeys(input_list))\n\n# 테스트\noriginal_list = [1, 2, 3, 2, 4, 1, 5, 3]\nresult = remove_duplicates(original_list)\n\nprint(f\"원본 리스트: {original_list}\")\nprint(f\"중복 제거 후: {result}\")\n```\n\n---\n\n### 왜 이렇게 작성했나요? (설명)\n\n이 방식이 가장 권장되는 이유는 다음과 같습니다.\n\n#### 1. `set()`을 사용하지 않는 이유\n보통 중복을 제거할 때 `list(set(input_list))`를 많이 사용합니다. 하지만 **`set`은 순서를 보장하지 않습니다.** 따라서 `set`을 사용하면 리스트의 요소들이 뒤섞이게 됩니다.\n\n#### 2. `dict.fromkeys()`를 사용하는 이유\n*   **중복 제거:** 딕셔너리의 **키(Key)**는 중복될 수 없습니다. `dict.fromkeys()` 함수는 리스트의 요소들을 딕셔너리의 키로 변환하는데, 이때 중복된 값은 자동으로 하나만 남게 됩니다.\n*   **순서 유지:** 파이썬 3.7 버전부터 공식적으로 **딕셔너리는 삽입된 순서를 유지**하도록 설계되었습니다. 따라서 리스트의 첫 번째 요소부터 차례대로 키로 들어가기 때문에 원래 순서가 그대로 보존됩니다.\n*   **성능(시간 복잡도):** 이 방식은 리스트를 한 번 훑으면서 딕셔너리에 넣는 방식이므로, 시간 복잡도가 **$O(n)$**입니다. (반면, 리스트를 돌면서 `if x not in new_list`와 같이 체크하는 방식은 $O(n^2)$이 되어 데이터가 많아질수록 매우 느려집니다.)\n\n### 요약\n**\"순서를 유지해야 한다면 `set` 대신 `dict`를 활용하라\"**는 것이 핵심입니다. 이 방법은 파이썬에서 가장 간결하면서도 성능이 뛰어난 표준적인 방법입니다.",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 1,
+  "prompt_n": 48,
+  "prompt_ms": 901.18,
+  "prompt_per_token_ms": 18.774583333333332,
+  "prompt_per_second": 53.263498968019704,
+  "predicted_n": 570,
+  "predicted_ms": 30074.775,
+  "predicted_per_token_ms": 52.855492091388406,
+  "predicted_per_second": 18.919509788518784,
+  "draft_n": 570,
+  "draft_n_accepted": 379
+ },
+ "wall_s": 31.7
+}

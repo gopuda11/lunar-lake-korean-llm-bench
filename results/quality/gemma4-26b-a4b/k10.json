@@ -1,0 +1,23 @@
+{
+ "id": "k10",
+ "category": "코딩",
+ "prompt": "파이썬에서 리스트 안의 중복을 제거하되 원래 순서는 유지하는 함수를 작성하고, 왜 그렇게 작성했는지 한국어로 설명해 줘.",
+ "model": "gemma4-26b-a4b",
+ "answer": "파이썬에서 리스트의 중복을 제거하면서 **원래의 순서를 유지**하는 가장 효율적이고 깔끔한 방법은 `dict.fromkeys()` 메서드를 사용하는 것입니다.\n\n### 1. 코드 구현\n\n```python\ndef remove_duplicates_keep_order(input_list):\n    # dict.fromkeys()를 사용하여 중복을 제거하고 리스트로 변환\n    return list(dict.fromkeys(input_list))\n\n# 테스트 코드\noriginal_list = [3, 1, 2, 3, 4, 1, 5, 2]\nresult = remove_duplicates_keep_order(original_list)\n\nprint(f\"원본 리스트: {original_list}\")\nprint(f\"결과 리스트: {result}\")\n```\n\n**실행 결과:**\n```text\n원본 리스트: [3, 1, 2, 3, 4, 1, 5, 2]\n결과 리스트: [3, 1, 2, 4, 5]\n```\n\n---\n\n### 2. 왜 이렇게 작성했나요? (설명)\n\n이 코드를 작성한 이유는 **시간 복잡도(효율성)**와 **파이썬의 언어적 특성**을 모두 고려했기 때문입니다.\n\n#### ① 왜 `set()`을 사용하지 않았나요?\n보통 중복을 제거할 때 `list(set(input_list))`를 가장 먼저 떠올립니다. 하지만 `set`은 **집합(Set)** 자료형으로, 수학적 집합의 원리를 따르기 때문에 **요소들의 순서를 보장하지 않습니다.** 따라서 문제의 조건인 \"원래 순서 유지\"를 만족할 수 없습니다.\n\n#### ② 왜 `dict.fromkeys()`를 사용했나요?\n1.  **순서 보장 (Python 3.7+):** 파이썬 3.7 버전부터는 딕셔너리(`dict`)가 아이템이 삽입된 **순서를 유지**하도록 언어 스펙이 변경되었습니다. `dict.fromkeys(input_list)`를 호출하면 리스트의 요소들을 딕셔너리의 '키(key)'로 만드는데, 이때 중복된 키는 하나만 남고 삽입된 순서대로 저장됩니다.\n2.  **효율성 (시간 복잡도):** \n    *   딕셔너리의 키를 찾는 작업(Hash Lookup)은 평균적으로 **$O(1)$**의 시간 복잡도를 가집니다.\n    *   따라서 전체 리스트를 한 번 훑으며 중복을 제거하는 이 방식의 전체 시간 복잡도는 **$O(n)$**입니다.\n    *   만약 `for`문과 `if x not in new_list` 방식을 사용한다면, `not in` 연산이 리스트를 매번 처음부터 끝까지 탐색해야 하므로 전체 복잡도가 **$O(n^2)$**로 급격히 느려집니다.\n\n#### ③ 요약\n*   **`set()`**: 빠르지만 순서가 망가짐.\n*   **`for` + `if not in`**: 순서는 유지되지만 데이터가 많아지면 매우 느려짐.\n*   **`dict.fromkeys()`**: **순서도 유지되고 속도도 매우 빠름 (최적의 선택).**",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 1,
+  "prompt_n": 48,
+  "prompt_ms": 714.439,
+  "prompt_per_token_ms": 14.884145833333333,
+  "prompt_per_second": 67.18558197410836,
+  "predicted_n": 748,
+  "predicted_ms": 25643.111,
+  "predicted_per_token_ms": 34.32812717536814,
+  "predicted_per_second": 29.130630834924823,
+  "draft_n": 771,
+  "draft_n_accepted": 490
+ },
+ "wall_s": 26.7
+}

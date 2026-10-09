@@ -1,0 +1,402 @@
+{
+ "k01": {
+  "best": "C",
+  "scores": {
+   "A": {
+    "acc": 4,
+    "ko": 4,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k02": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 3,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k03": {
+  "best": "C",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 4,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k04": {
+  "best": "C",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 4,
+    "follow": 4
+   },
+   "B": {
+    "acc": 5,
+    "ko": 3,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 4
+   }
+  }
+ },
+ "k05": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 3,
+    "ko": 3,
+    "follow": 4
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 4
+   }
+  }
+ },
+ "k06": {
+  "best": "A",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 4
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 4
+   }
+  }
+ },
+ "k07": {
+  "best": "A",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 4,
+    "follow": 5
+   },
+   "C": {
+    "acc": 1,
+    "ko": 3,
+    "follow": 4
+   }
+  }
+ },
+ "k08": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 4,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k09": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 4,
+    "ko": 4,
+    "follow": 4
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 4,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k10": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 3,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k11": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k12": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k13": {
+  "best": "A",
+  "scores": {
+   "A": {
+    "acc": 3,
+    "ko": 3,
+    "follow": 3
+   },
+   "B": {
+    "acc": 2,
+    "ko": 2,
+    "follow": 2
+   },
+   "C": {
+    "acc": 2,
+    "ko": 2,
+    "follow": 2
+   }
+  }
+ },
+ "k14": {
+  "best": "A",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 2,
+    "ko": 4,
+    "follow": 4
+   }
+  }
+ },
+ "k15": {
+  "best": "A",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "B": {
+    "acc": 4,
+    "ko": 4,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k16": {
+  "best": "A",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k17": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 1,
+    "ko": 3,
+    "follow": 2
+   },
+   "B": {
+    "acc": 3,
+    "ko": 4,
+    "follow": 4
+   },
+   "C": {
+    "acc": 1,
+    "ko": 1,
+    "follow": 1
+   }
+  }
+ },
+ "k18": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 2,
+    "ko": 4,
+    "follow": 4
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   }
+  }
+ },
+ "k19": {
+  "best": "B",
+  "scores": {
+   "A": {
+    "acc": 3,
+    "ko": 4,
+    "follow": 2
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 4
+   }
+  }
+ },
+ "k20": {
+  "best": "A",
+  "scores": {
+   "A": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "B": {
+    "acc": 5,
+    "ko": 5,
+    "follow": 5
+   },
+   "C": {
+    "acc": 3,
+    "ko": 2,
+    "follow": 2
+   }
+  }
+ }
+}

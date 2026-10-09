@@ -1,0 +1,23 @@
+{
+ "id": "k08",
+ "category": "번역",
+ "prompt": "다음 영어 문장을 자연스러운 한국어로 번역해 줘. 직역투가 나지 않게.\n\n\"We regret to inform you that the shipment has been delayed due to unforeseen circumstances at the port. We will keep you posted as soon as we have an update.\"",
+ "model": "qwen3.8-27b",
+ "answer": "예기치 못한 항만 사정으로 인해 화물 배송이 지연되고 있음을 알려드립니다. 최신 정보가 확보되는 대로 즉시 안내해 드리겠습니다.",
+ "reasoning": "",
+ "finish_reason": "stop",
+ "timings": {
+  "cache_n": 0,
+  "prompt_n": 67,
+  "prompt_ms": 2533.645,
+  "prompt_per_token_ms": 37.81559701492537,
+  "prompt_per_second": 26.444115098997692,
+  "predicted_n": 31,
+  "predicted_ms": 4577.606,
+  "predicted_per_token_ms": 152.58686666666665,
+  "predicted_per_second": 6.553643978970667,
+  "draft_n": 36,
+  "draft_n_accepted": 18
+ },
+ "wall_s": 8.2
+}

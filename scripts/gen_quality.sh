@@ -1,7 +1,7 @@
 #!/bin/bash
 # usage: gen_quality.sh <label> <model.gguf> [draft.gguf]
 # answers the 20 Korean quality prompts (temp 0.3, top_p 0.9, seed 42, no thinking, max 1200 tok) with MTP on
-cd /mnt/data/ai/llm-bench
+cd "$(dirname "$0")/.."
 label=$1; model=$2; draft=$3
 out=results/quality/$label; mkdir -p $out
 args=(-m "$model" -ngl 99 -fa on -c 8192 --port 18081 --host 127.0.0.1 -np 1 -lm none --spec-type draft-mtp)

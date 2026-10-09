@@ -1,9 +1,9 @@
 #!/bin/bash
-cd /mnt/data/ai/llm-bench
+cd "$(dirname "$0")/.."
 trap 'systemctl --user start npu-server; echo NPU_RESTARTED $(systemctl --user is-active npu-server)' EXIT
 systemctl --user stop npu-server
 curl -s 127.0.0.1:11434/api/generate -d '{"model":"gemma4:12b","keep_alive":0}' >/dev/null
-O=/mnt/data/ai/ollama/models/blobs
+O=${OLLAMA_BLOBS:-$HOME/.ollama/models/blobs}
 G12=$O/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391
 G12D=$O/sha256-7008a656050bed18f6741406a631e83fa75ee1a02308f2e4f40d978cfbb3ce4b
 G4=models/gemma-4-26b-a4b/gemma-4-26B-A4B-it-UD-Q4_K_XL.gguf; G4D=models/gemma-4-26b-a4b/MTP/mtp-gemma-4-26B-A4B-it-Q8_0.gguf

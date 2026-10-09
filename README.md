@@ -83,8 +83,7 @@ Gemma-4-26B-A4B가 품질·KMMLU 모두 1위지만 차이는 작고, Q4 양자�
 
 ## 재현
 
-스크립트는 원래 작업 경로(`/mnt/data/ai/llm-bench`)를 기준으로 쓰여 있으니 경로를 바꿔서 쓰세요.
-llama-server는 `127.0.0.1:18082`, 비교용 Ollama는 `127.0.0.1:11434`를 씁니다.
+스크립트는 저장소 루트 기준 상대 경로로 동작합니다. llama-server는 `127.0.0.1:18082`, 비교용 Ollama는 `127.0.0.1:11434`를 씁니다 (Ollama 모델 위치가 다르면 `OLLAMA_BLOBS` 지정).
 JEV/Clef 심사는 각각 `JEV_API_KEY`, `CF_ACCOUNT_ID`/`CF_API_TOKEN` 환경변수가 필요합니다.
 
 ```

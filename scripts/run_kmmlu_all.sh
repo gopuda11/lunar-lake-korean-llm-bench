@@ -4,12 +4,12 @@
 # --no-host --no-repack -lm mmap: otherwise the CPU-side experts land in pinned Vulkan host buffers or anon memory (auto load mode skips mmap on Vulkan), not reclaimable mmap pages.
 set -uo pipefail
 
-cd /mnt/data/ai/llm-bench || exit 1
+cd "$(dirname "$0")/.." || exit 1
 mkdir -p logs results/kmmlu || exit 1
 sample=results/kmmlu/sample-20x45.jsonl
 [[ -f "$sample" ]] || { printf 'Missing sample: %s\n' "$sample" >&2; exit 1; }
 
-server=/mnt/data/ai/llm-bench/llama.cpp/build/bin/llama-server
+server=llama.cpp/build/bin/llama-server
 spid=""
 overall_rc=0
 

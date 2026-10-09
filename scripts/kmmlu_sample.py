@@ -7,7 +7,7 @@ import random
 from collections import Counter
 from pathlib import Path
 
-DATA = Path("/mnt/data/ai/llm-bench/data/kmmlu-d61b3f19")
+DATA = Path(__file__).resolve().parents[1] / "data/kmmlu-d61b3f19"
 OUT = Path("results/kmmlu/sample-20x45.jsonl")
 
 

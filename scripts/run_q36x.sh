@@ -1,6 +1,6 @@
 #!/bin/bash
 # download Qwen3.6 UD-IQ4_XS (MTP), verify, then llama-bench + v2 off/MTP runs with npu-server stopped
-cd /mnt/data/ai/llm-bench
+cd "$(dirname "$0")/.."
 R=unsloth/Qwen3.6-35B-A3B-MTP-GGUF; F=Qwen3.6-35B-A3B-UD-IQ4_XS.gguf; D=models/qwen3.6-35b-a3b-mtp
 ~/.local/bin/uvx --from "huggingface_hub[hf_xet]" hf download $R $F --local-dir $D > logs/download-iq4xs.log 2>&1 || { echo DOWNLOAD_FAILED; exit 1; }
 want=$(curl -s "https://huggingface.co/api/models/$R/paths-info/main" -d "paths=$F" | python -I -c 'import json,sys;print(json.load(sys.stdin)[0]["lfs"]["oid"])')

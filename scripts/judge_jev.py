@@ -12,7 +12,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-ROOT = Path("/mnt/data/ai/llm-bench")
+ROOT = Path(__file__).resolve().parents[1]
 
 env = {}
 for f in (".config/decision-gateway/env", ".config/jev/env"):

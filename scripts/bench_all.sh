@@ -1,6 +1,6 @@
 #!/bin/bash
 # llama-bench each model; record peak used RAM and swap-in/out pages during the run
-cd /mnt/data/ai/llm-bench
+cd "$(dirname "$0")/.."
 BIN=llama.cpp/build/bin/llama-bench
 declare -a MODELS=(
   "gemma-4-26b-a4b|models/gemma-4-26b-a4b/gemma-4-26B-A4B-it-UD-Q4_K_XL.gguf"

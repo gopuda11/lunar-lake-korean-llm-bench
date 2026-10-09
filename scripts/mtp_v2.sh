@@ -2,7 +2,7 @@
 # usage: mtp_v2.sh <label> <model.gguf> <none|draft-mtp> [draft.gguf]
 # cool down, start llama-server, run 6 Korean prompts (greedy, 400 tok, no thinking),
 # log tok/s, MTP acceptance, package temp, mean GPU freq, swap-in; stop server by PID.
-cd /mnt/data/ai/llm-bench
+cd "$(dirname "$0")/.."
 label=$1; model=$2; spec=$3; draft=$4
 FREQ=$(ls /sys/class/drm/card*/device/tile0/gt0/freq0/act_freq | head -1)
 TEMP=$(grep -l x86_pkg_temp /sys/class/thermal/thermal_zone*/type | sed 's/type$/temp/')
@@ -22,7 +22,7 @@ while IFS= read -r p; do
   r=$(python -I -c 'import json,sys;print(json.dumps({"messages":[{"role":"user","content":sys.argv[1]}],"max_tokens":400,"temperature":0,"chat_template_kwargs":{"enable_thinking":False}}))' "$p" \
       | curl -s 127.0.0.1:18080/v1/chat/completions -H 'Content-Type: application/json' -d @-)
   kill $fpid; f=$(awk '{s+=$1;c++} END{printf "%d", s/c}' /tmp/claude-1000/freq.$$)
-  echo "$r" | python -I /mnt/data/ai/llm-bench/scripts/fmt_v2.py "$label" $n $t0 $(t) $f
+  echo "$r" | python -I scripts/fmt_v2.py "$label" $n $t0 $(t) $f
   echo "$r" > results/v2-$label-q$n.json
 done < scripts/prompts_ko.txt
 echo "$label swapin_MB=$(( ($(awk '$1=="pswpin"{print $2}' /proc/vmstat) - sw0) * 4 / 1024 ))"

@@ -1,7 +1,7 @@
 #!/bin/bash
 # usage: mtp_run.sh <label> <model.gguf> <spec-type> [draft.gguf]
 # starts llama-server, runs 2 Korean prompts (greedy, 300 tok), prints timings, stops server by PID
-cd /mnt/data/ai/llm-bench
+cd "$(dirname "$0")/.."
 label=$1; model=$2; spec=$3; draft=$4
 args=(-m "$model" -ngl 99 -fa on -c 4096 --port 18080 --host 127.0.0.1 -np 1 -lm none)
 [ "$spec" != none ] && args+=(--spec-type "$spec")

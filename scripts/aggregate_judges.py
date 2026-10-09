@@ -13,7 +13,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-Q = Path("/mnt/data/ai/llm-bench/results/quality")
+Q = Path(__file__).resolve().parents[1] / "results/quality"
 reveal = "--reveal" in sys.argv
 data = json.load(open(Q / "grading_data.json", encoding="utf-8"))
 blind = json.load(open(Q / "blind_map.json", encoding="utf-8"))
